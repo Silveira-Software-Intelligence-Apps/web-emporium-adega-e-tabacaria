@@ -1,0 +1,376 @@
+{
+  "signals": {
+    "businessType": "local-retail",
+    "segment": "varejo-experiencial",
+    "subsegments": [
+      "noturno",
+      "lifestyle",
+      "produtos-premium"
+    ],
+    "salesModel": "impulse-browse",
+    "customerIntent": "explorar-escolher",
+    "decisionSpeed": 0.7,
+    "trustNeed": 0.3,
+    "visualWeight": 0.9,
+    "bookingNeed": false,
+    "catalogNeed": true,
+    "locationNeed": true,
+    "socialProofNeed": 0.5,
+    "urgencyProfile": 0.2,
+    "digitalMaturity": "baixa",
+    "toneHints": [
+      "descolado",
+      "aspiracional",
+      "sensorial"
+    ],
+    "evidence": [
+      {
+        "type": "confirmed",
+        "source": "segment-match",
+        "detail": "Nicho \"tabacaria\" matched → varejo-experiencial"
+      },
+      {
+        "type": "confirmed",
+        "source": "google-rating",
+        "detail": "5★ (3 avaliações)"
+      },
+      {
+        "type": "confirmed",
+        "source": "lead-data",
+        "detail": "Cidade: Barueri"
+      }
+    ],
+    "unknowns": [
+      "no-digital-presence",
+      "ia-diagnosis-missing"
+    ],
+    "lifestyleSignal": 0.8,
+    "luxurySignal": 0.5,
+    "urgencySignal": 0.2
+  },
+  "profile": {
+    "primarySegment": "varejo-experiencial",
+    "secondarySegments": [
+      "noturno",
+      "lifestyle",
+      "produtos-premium"
+    ],
+    "businessMode": "experience",
+    "audience": [
+      "jovens-adultos",
+      "night-life",
+      "entusiastas"
+    ],
+    "customerMindset": [
+      "quero-experiencia",
+      "identificacao-estilo",
+      "quero-ver-opcoes",
+      "comparando"
+    ],
+    "purchaseContext": [
+      "curiosidade",
+      "descoberta",
+      "experiencia"
+    ],
+    "decisionDynamics": {
+      "speed": "media",
+      "frictionTolerance": "media",
+      "trustBarrier": "baixo"
+    },
+    "commercialNeeds": {
+      "booking": false,
+      "whatsapp": true,
+      "catalog": true,
+      "location": true,
+      "reviews": false,
+      "proof": false
+    },
+    "brandVibe": [
+      "lifestyle",
+      "aspiracional"
+    ],
+    "visualDirectionHints": [
+      "dark-atmosphere",
+      "foto-hero-forte",
+      "galeria-prioridade"
+    ],
+    "copyDirectionHints": [
+      "aspiracional",
+      "emocional",
+      "identidade"
+    ],
+    "ctaDirectionHints": [
+      "ver-produtos",
+      "explorar"
+    ],
+    "antiPatterns": [
+      "hero-corporativo-generico",
+      "copy-institucional-fria",
+      "paleta-azul-clinica"
+    ]
+  },
+  "direction": {
+    "theme": {
+      "paletteMode": "dark-immersive",
+      "contrastLevel": "high",
+      "density": "spacious",
+      "visualTemperature": "warm",
+      "preferredMood": [
+        "lifestyle",
+        "aspiracional"
+      ]
+    },
+    "hero": {
+      "style": "fullscreen-immersive",
+      "emphasis": "visual",
+      "headlineMode": "aspirational",
+      "subheadlineMode": "value-proposition",
+      "backgroundDirection": "photo-atmospheric",
+      "ctaPriority": "catalog"
+    },
+    "imagery": {
+      "focus": [
+        "ambiente",
+        "produtos",
+        "atmosfera-noturna",
+        "iluminacao"
+      ],
+      "avoid": [
+        "escritorio",
+        "corporativo",
+        "clinico"
+      ],
+      "style": "atmospheric",
+      "realismLevel": "high-preference-real-photos"
+    },
+    "sections": {
+      "priorityOrder": [
+        "hero",
+        "galeria",
+        "servicos",
+        "contato",
+        "stats",
+        "sobre",
+        "avaliacoes",
+        "faq",
+        "cta-final"
+      ],
+      "include": {
+        "hero": true,
+        "galeria": true,
+        "servicos": true,
+        "contato": true,
+        "stats": true,
+        "sobre": true,
+        "avaliacoes": true,
+        "faq": true,
+        "cta-final": true
+      },
+      "exclude": {}
+    },
+    "proof": {
+      "emphasis": "light",
+      "type": "customer-stories"
+    },
+    "conversion": {
+      "primaryCta": "Ver Catálogo",
+      "secondaryCta": "Fale Conosco",
+      "contactStrategy": "catalog-then-contact",
+      "formMode": "simple"
+    },
+    "copy": {
+      "tone": "aspiracional-envolvente",
+      "sentenceStyle": "balanced",
+      "persuasionMode": "benefit-aspiration",
+      "avoid": [
+        "linguagem-corporativa-fria"
+      ]
+    }
+  },
+  "applied": {
+    "overrides": [
+      "palette:dark-immersive",
+      "imagery:varejo-experiencial",
+      "content:varejo-experiencial",
+      "cta:Ver Catálogo",
+      "enriched:lead-specifics"
+    ],
+    "palette": {
+      "mode": "dark-immersive",
+      "bg": "#09090f",
+      "primary": "#e8a838",
+      "accent": "#d4943c",
+      "text": "#f0f0f0"
+    },
+    "imagery": {
+      "segment": "varejo-experiencial",
+      "heroImg": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&q=80&auto=forma...",
+      "aboutImg": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=900&q=80&auto=format..."
+    },
+    "cta": {
+      "primary": "Ver Catálogo",
+      "secondary": "Fale Conosco"
+    },
+    "sectionOrder": [
+      "hero",
+      "galeria",
+      "servicos",
+      "contato",
+      "stats",
+      "sobre",
+      "avaliacoes",
+      "faq",
+      "cta-final"
+    ],
+    "sectionLabelsSource": "varejo-experiencial",
+    "contentSource": "varejo-experiencial",
+    "tagline": {
+      "source": "dynamic-builder",
+      "value": "Emporium Adega E Tabacaria em Barueri — o lugar certo para quem busca experiência, qualidade e estil"
+    },
+    "iaInfluence": false,
+    "iaFields": null,
+    "enrichment": {
+      "hasLeadData": true,
+      "leadFlags": {
+        "hasAvaliacao": true,
+        "hasDescricao": false,
+        "hasHorarios": false,
+        "hasEndereco": true,
+        "hasInstagram": false,
+        "hasWebsite": false
+      },
+      "nameTokens": [],
+      "reviewsSource": "enriched-specific",
+      "heroHeadlineSource": "sales-angle",
+      "subheadlineSource": "enriched-specific",
+      "aboutSource": "businessMode",
+      "iaEnriched": false,
+      "siteContext": "new-creation"
+    }
+  },
+  "audit": {
+    "businessPersona": {
+      "empresa": "Emporium Adega E Tabacaria",
+      "segment": "varejo-experiencial",
+      "businessMode": "experience",
+      "traits": [
+        "lifestyle/aspiracional"
+      ],
+      "tone": "aspiracional-envolvente",
+      "brandVibe": [
+        "lifestyle",
+        "aspiracional"
+      ],
+      "audience": [
+        "jovens-adultos",
+        "night-life",
+        "entusiastas"
+      ],
+      "customerMindset": [
+        "quero-experiencia",
+        "identificacao-estilo",
+        "quero-ver-opcoes",
+        "comparando"
+      ],
+      "salesModel": "impulse-browse",
+      "visualPersonality": "dark-immersive",
+      "heroStyle": "fullscreen-immersive",
+      "summary": "Emporium Adega E Tabacaria é um negócio tipo \"experience\" no segmento \"varejo-experiencial\". Persona: lifestyle/aspiracional. Tom: aspiracional-envolvente. Público: jovens-adultos, night-life."
+    },
+    "specificityMarkers": {
+      "heroHeadline": "segment-specific",
+      "heroSubheadline": "business-specific",
+      "ctaPrimary": "Ver Catálogo",
+      "ctaPrimarySource": "signal:catalog",
+      "ctaSecondary": "Fale Conosco",
+      "reviews": "segment+business-specific",
+      "aboutParagraph": "businessMode:experience",
+      "services": "segment:varejo-experiencial",
+      "faq": "segment:varejo-experiencial+location-faq",
+      "palette": "direction:dark-immersive",
+      "imagery": "segment:varejo-experiencial",
+      "stats": "lead-data-enriched",
+      "sectionLabels": "segment:varejo-experiencial",
+      "sectionOrder": "direction-weighted",
+      "tagline": "dynamic-builder",
+      "_score": "15/15",
+      "_pct": "100%"
+    },
+    "heroRationale": {
+      "headlineMode": "aspirational",
+      "headlineSource": "sales-angle-function",
+      "headlineValue": "Descubra a Emporium Adega E Tabacaria. Experiência que surpreende.",
+      "subheadlineSource": "enrichWithLeadSpecifics",
+      "emphasis": "visual",
+      "style": "fullscreen-immersive",
+      "why": "visualWeight > 0.8 → hero fullscreen para máximo impacto visual. headline mode aspiracional: negócio lifestyle/experiencial. salesAngle fornece headline por segmento."
+    },
+    "ctaRationale": {
+      "primaryCta": "Ver Catálogo",
+      "secondaryCta": "Fale Conosco",
+      "contactStrategy": "catalog-then-contact",
+      "why": "catalogNeed → CTA de catálogo primeiro."
+    },
+    "proofRationale": {
+      "emphasis": "light",
+      "type": "customer-stories",
+      "reviewsSource": "segment-templates-with-business-data",
+      "hasRealRating": true,
+      "ratingUsed": 5,
+      "why": "prova social leve — segmento não depende tanto de reviews. avaliação real (5★) injeta credibilidade nos stats e reviews. tipo customer-stories: depoimentos de clientes como prova principal."
+    },
+    "copyRationale": {
+      "tone": "aspiracional-envolvente",
+      "sentenceStyle": "balanced",
+      "persuasionMode": "benefit-aspiration",
+      "avoid": [
+        "linguagem-corporativa-fria"
+      ],
+      "aboutSource": "businessMode:experience",
+      "why": "lifestyleSignal > 0.6 → tom aspiracional e envolvente. persuasão por benefício/aspiração. evitando: linguagem-corporativa-fria."
+    },
+    "why_this_business_is_not_generic": {
+      "reasons": [
+        "Subtítulo construído com dados reais do lead (avaliação, cidade, modo de negócio)",
+        "Reviews mencionam \"Emporium Adega E Tabacaria\" por nome, não são genéricos",
+        "Stats usam avaliação real: 5★ (3 avaliações)",
+        "FAQ inclui localização real: R. das Adálias, 165 - Jardim Florida, Barueri - SP, 06407-170, Brasil, Jardim Florida, Barueri"
+      ],
+      "specificFieldCount": 15,
+      "totalFields": 15,
+      "verdict": "altamente específico"
+    },
+    "fieldProvenance": {
+      "fromLead": [
+        "empresa",
+        "nicho",
+        "cidade",
+        "telefone",
+        "avaliacao",
+        "numero_avaliacoes",
+        "endereco",
+        "bairro"
+      ],
+      "fromCRM": [],
+      "fromIA": [],
+      "inferred": [
+        "segment:varejo-experiencial",
+        "businessMode:experience",
+        "paletteMode:dark-immersive",
+        "heroStyle:fullscreen-immersive",
+        "copyTone:aspiracional-envolvente",
+        "salesModel:impulse-browse",
+        "contactStrategy:catalog-then-contact",
+        "sectionOrder:weighted-by-signals"
+      ],
+      "summary": {
+        "lead": 8,
+        "crm": 0,
+        "ia": 0,
+        "inferred": 8,
+        "total": 16
+      }
+    }
+  }
+}

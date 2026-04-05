@@ -4,12 +4,12 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'Emporium Adega E Tabacaria — Barueri',
-  description: 'Atendimento profissional, resultado com garantia e orçamento gratuito. Entre em contato agora e receba resposta em até 1 hora.',
+  description: 'Emporium Adega E Tabacaria em Barueri — o lugar certo para quem busca experiência, qualidade e estilo. Venha conhecer e surpreenda-se.',
   keywords: 'Emporium Adega E Tabacaria, tabacaria, tabacaria Barueri, Barueri, melhor tabacaria, tabacaria profissional',
   robots: { index: true, follow: true },
   openGraph: {
     title: 'Emporium Adega E Tabacaria',
-    description: 'Emporium Adega E Tabacaria — tabacaria em Barueri. Atendimento profissional, resultado com garantia e orçamento gratuito. Entre em contato agora e receba resposta em até 1 hora.',
+    description: 'Emporium Adega E Tabacaria — tabacaria em Barueri. Emporium Adega E Tabacaria em Barueri — o lugar certo para quem busca experiência, qualidade e estilo. Venha conhecer e surpreenda-se.',
     type: 'website',
     locale: 'pt_BR',
     siteName: 'Emporium Adega E Tabacaria',
